@@ -23,7 +23,7 @@ import visu
 
 def dope(imagename, modelname, postprocessing='ppi'):
     if postprocessing=='ppi':
-      sys.path.append( _thisdir+'/lcrnet-v2-improved-ppi/')
+      sys.path.append( _thisdir+'/lcrnet-v2-improved-ppi-old/')
       try:
         from lcr_net_ppi_improved import LCRNet_PPI_improved
       except ModuleNotFoundError:
